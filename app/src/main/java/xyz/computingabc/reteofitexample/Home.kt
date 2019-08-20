@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_home.*
+import xyz.computingabc.reteofitexample.VollyLibrary.VollyLibrary
 
 class Home : AppCompatActivity() {
 
@@ -13,7 +14,7 @@ class Home : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         btnVolly.setOnClickListener {
-            startActivity(Intent(applicationContext,MainActivity::class.java))
+            startActivity(Intent(applicationContext, VollyLibrary::class.java))
             finish()
         }
     }

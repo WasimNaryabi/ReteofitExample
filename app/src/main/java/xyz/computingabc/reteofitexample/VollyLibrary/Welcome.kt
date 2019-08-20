@@ -1,8 +1,9 @@
-package xyz.computingabc.reteofitexample
+package xyz.computingabc.reteofitexample.VollyLibrary
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import xyz.computingabc.reteofitexample.R
 
 class Welcome : AppCompatActivity() {
 
@@ -12,7 +13,7 @@ class Welcome : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        startActivity(Intent(applicationContext,MainActivity::class.java))
+        startActivity(Intent(applicationContext, VollyLibrary::class.java))
         finish()
     }
 }

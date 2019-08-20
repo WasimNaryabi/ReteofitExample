@@ -11,14 +11,14 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".VollyLibrary.VollyLibrary">
 
         </activity>
-        <activity android:name=".UserLogin">
+        <activity android:name=".VollyLibrary.UserLogin">
         </activity>
-        <activity android:name=".UserRegistor">
+        <activity android:name=".VollyLibrary.UserRegistor">
         </activity>
-        <activity android:name=".Welcome">
+        <activity android:name=".VollyLibrary.Welcome">
         </activity>
         <activity android:name=".Home">
             <intent-filter>
